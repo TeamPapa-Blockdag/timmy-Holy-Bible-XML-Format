@@ -10,6 +10,8 @@ structure of the Sg1910_v11n.osis.xml file, which uses milestone tags
 to delimit verses.
 """
 
+import utils.transport
+import utils.session
 import os
 import re
 from lxml import etree
